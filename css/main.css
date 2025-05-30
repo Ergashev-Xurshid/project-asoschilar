@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 20px 0;
+  background-color: white;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-link {
+  font-family: SF Pro, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: black;
+  text-decoration: none;
+}
+
+.main-link {
+  padding: 8px 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  background-color: #0F172A;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+/* header end  */
+
+.hero {
+  padding: 170px 0;
+  background: url("../img/hero/block.svg");
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-info {
+  max-width: 540px;
+}
+
+.hero-title {
+  font-family: SF Pro, sans-serif;
+  font-weight: 590;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #0F172A;
+  margin-bottom: 12px;
+}
+
+.hero-text {
+  font-family: SF Pro, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #475569;
+  margin-bottom: 40px;
+}
+
+.hero-link {
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: #0F172A;
+  box-shadow: 0px 4px 6px 0px #00000017;
+  font-family: SF Pro, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-img {
+  max-width: 282px;
+}
+/* hero end  */
+/* brand start  */
+.brand {
+  padding: 26px 0;
+  background-color: #F2F2F7;
+}
+.brand-container {
+  display: flex;
+  justify-content: space-between;
+}
+.brand-logo {
+  width: 135px;
+}
