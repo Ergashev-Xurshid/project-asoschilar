@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -288,7 +290,7 @@
 
 .portfolio {
   padding: 64px 0;
-  background: url("../img/hero/block.svg");
+  background: url("../img/portfolio/bg.svg");
 }
 
 .portfolio-card {
@@ -481,6 +483,7 @@
 /* commit end  */
 /* contact start */
 .contact {
+  background: url("../img/contact/bg.svg");
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -841,7 +844,9 @@
     display: inline-block;
   }
 }
-
+.portfolio-more {
+  display: none;
+}
 @media (max-width:768px) {
   .about {
     padding-top: 60px;
