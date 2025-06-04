@@ -31,7 +31,7 @@ html{
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  display: flex;
+  display: inline-flex;
   gap: 8px;
   cursor: pointer;
   margin-bottom: 16px;
@@ -573,7 +573,7 @@ html{
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0%;
-  color: #64748B;
+  color: #1E293B;
 }
 
 .footer-right {
